@@ -1,0 +1,654 @@
+body {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding-top: 200px;
+    padding-bottom: 60px;
+    font-family: "Roboto Slab";
+    font-size: 14px;
+    background-color: #002651;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-image: url(images/34-right-w.jpg);
+    background-position: right top;
+    color: white;
+}
+
+body#contactPage {
+    background-image: url(images/33-w.jpg);
+    background-color: transparent;
+    background-position: center top;
+}
+
+@media screen and (min-width: 768px) and (min-height: 1000px) {
+    #contactPage header, #contactPage .topnav { /* ,  */
+        background: transparent;
+    }
+}
+
+#homePage .active {
+    background: transparent;
+}
+
+article {
+    margin: 30px;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 16px;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    background: #00265188;
+    z-index: 3;
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        width: 100%;
+    }
+}
+
+.logo-link {
+    float: left;
+}
+
+.logo-img {
+    height: 100px;
+    margin: 10px;
+}
+
+p {
+    color: white;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.click-position {
+    margin-left: 200px;
+}
+
+#elon {
+    background: transparent;
+}
+
+footer {
+    margin-top: 200px;
+    color: white;
+    margin-left: 30px;
+}
+
+footer .fab, footer .fas {
+    font-size: 1.8em;
+    float: right;
+    margin-right: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.fab:hover, .fas:hover {
+    cursor: pointer;
+}
+
+article>div.box {
+    background: #00265188;
+    padding: 15px;
+    margin: 10px -15px;
+}
+
+@media screen and (min-width: 601px) {
+    article>div.box, .nextlaunch-box {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    iframe {
+        width: 100%;
+    }
+}
+
+#launches-header {
+    font-size: 3em;
+    margin-bottom: 80px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid white;
+}
+
+td {
+    padding: 5px;
+    font-size: 130%;
+}
+
+/* contact form */
+
+input[type=submit] {
+    background-color: #156bcc;
+    border: none;
+    color: white;
+    padding: 20px 35px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-size: 1.1em;
+}
+
+input[type=text], textarea {
+    width: 400px;
+    border: 2px solid #002651;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+form {
+    max-width: 600px;
+    display: inline-block;
+}
+
+.label {
+    font-size: 1.2em;
+    display: inline-block;
+    width: 400px;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 460px) {
+    input[type=text], textarea, .label {
+        width: 95%;
+    }
+}
+
+#message {
+    height: 60px;
+}
+
+.contact-wrapper h1 {
+    margin-top: 110px;
+}
+
+.h2-contact {
+    margin-top: 30px;
+    color: white;
+}
+
+textarea {
+    margin-top: 10px;
+}
+
+#submit {
+    margin-top: 20px;
+    margin-right: 50px;
+    margin-bottom: 30px;
+}
+
+#submit input:hover {
+    background: #002651;
+}
+
+#submit input:active {
+    background: #68220b;
+}
+
+#form-error, #form-success {
+    display: none;
+    width: 400px;
+    padding: 5px;
+}
+
+#form-error {
+    background-color: red;
+}
+
+#form-success {
+    background-color: green;
+}
+
+.nextlaunch-box {
+    border: 2px solid white;
+    border-radius: 5px;
+    margin-bottom: 50px !important;
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+
+.nextlaunch-box>span {
+    display: block;
+}
+
+#nextlaunch {
+    font-size: 3em;
+    text-align: center;
+}
+
+#countdown {
+    font-size: 4em;
+    text-align: center;
+}
+
+.source-text {
+    font-size: 7px;
+}
+
+/* Button */
+
+.button {
+    padding: 15px 15px;
+    font-size: 11px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: white;
+    text-decoration: none;
+    background-color: #2388fa;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 3px whitesmoke;
+}
+
+.button:hover {
+    background-color: #2388fa
+}
+
+.button:active {
+    background-color: #2388fa;
+    box-shadow: 0 2px whitesmoke;
+    transform: translateY(4px);
+    top: 4px;
+    position: relative;
+}
+
+/* Slidshow Gallery */
+
+/* Position the image container (needed to position the left and right arrows) */
+
+.container {
+    position: relative;
+}
+
+/* Hide the images by default */
+
+.mySlides {
+    display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+
+.cursor {
+    cursor: pointer;
+}
+
+/* Next & previous buttons */
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* Container for image text */
+
+.caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Six columns side by side */
+
+.column {
+    float: left;
+    width: 20%;
+}
+
+#factsPage .column {
+    width: 33.33%;
+}
+
+/* Add a transparency effect for thumnbail images */
+
+.demo {
+    opacity: 0.6;
+}
+
+.active, .demo:hover {
+    opacity: 1;
+}
+
+/* Timeline */
+
+* {
+    box-sizing: border-box;
+}
+
+/* The actual timeline (the vertical ruler) */
+
+.timeline {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* The actual timeline (the vertical ruler) */
+
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color: white;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+}
+
+/* Container around content */
+
+.container-t {
+    padding: 10px 40px;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+}
+
+/* The circles on the timeline */
+
+.container-t::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: -17px;
+    background-color: #002651;
+    border: 4px solid #2388fa;
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+/* Place the container to the left */
+
+.left {
+    left: 0;
+}
+
+/* Place the container to the right */
+
+.right {
+    left: 50%;
+}
+
+/* Add arrows to the left container (pointing right) */
+
+.left::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    right: 30px;
+    border: medium solid white;
+    border-width: 10px 0 10px 10px;
+    border-color: transparent transparent transparent white;
+}
+
+/* Add arrows to the right container (pointing left) */
+
+.right::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    left: 30px;
+    border: medium solid white;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent white transparent transparent;
+}
+
+/* Fix the circle for containers on the right side */
+
+.right::after {
+    left: -16px;
+}
+
+/* The actual content */
+
+.content {
+    padding: 20px 30px;
+    background-color: #002651;
+    border: medium solid white;
+    position: relative;
+    border-radius: 6px;
+}
+
+/* Media queries - Responsive timeline on screens less than 768px wide */
+
+@media screen and (max-width: 768px) {
+    /* Place the timelime to the left */
+    .timeline::after {
+        left: 31px;
+    }
+    /* Full-width containers */
+    .container-t {
+        width: 100%;
+        padding-left: 70px;
+        padding-right: 25px;
+    }
+    /* Make sure that all arrows are pointing leftwards */
+    .container-t::before {
+        left: 60px;
+        border: medium solid white;
+        border-width: 10px 10px 10px 0;
+        border-color: transparent white transparent transparent;
+    }
+    /* Make sure all circles are at the same spot */
+    .left::after, .right::after {
+        left: 15px;
+    }
+    /* Make all right containers behave like the left ones */
+    .right {
+        left: 0%;
+    }
+}
+
+/* Navigation */
+
+/* Add a black background color to the top navigation */
+
+.topnav {
+    background-color: #002651;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1.9em;
+    z-index: 3;
+}
+
+/* Add an active class to highlight the current page */
+
+.active {
+    background-color: #0053ad;
+    color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+
+.topnav .icon {
+    display: none;
+}
+
+/* Dropdown container - needed to position the dropdown content */
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+/* Style the dropdown button to fit inside the topnav */
+
+.dropdown .dropbtn {
+    font-size: 1.9em;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+/* Style the dropdown content (hidden by default) */
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #002651;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+/* Style the links inside the dropdown */
+
+.dropdown-content a {
+    float: none;
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.topnav>*:not(:first-child) {
+    margin-top: 7%;
+}
+
+/* Add a dark background on topnav links and the dropdown button on hover */
+
+.topnav>a:not(:first-child):hover, .dropdown:hover .dropbtn {
+    background-color: #555;
+    color: white;
+}
+
+/* Add a grey background to dropdown links on hover */
+
+.dropdown-content a:hover {
+    background-color: #002651;
+    color: black;
+}
+
+/* Show the dropdown menu when the user moves the mouse over the dropdown button */
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+
+@media screen and (max-width: 768px) {
+    .topnav a:not(:first-child), .dropdown .dropbtn {
+        display: none;
+    }
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+
+@media screen and (max-width: 768px) {
+    .topnav.responsive {
+        position: relative;
+    }
+    .topnav.responsive a.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+    .topnav.responsive .dropdown {
+        float: none;
+    }
+    .topnav.responsive .dropdown-content {
+        position: relative;
+    }
+    .topnav.responsive .dropdown .dropbtn {
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
+}

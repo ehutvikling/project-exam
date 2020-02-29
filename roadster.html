@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="microsite for spacex falcon heavy">
+        <meta name="keywords" content="space, spacex, falcon heavy, tesla, roadster, launches, aerospace, astronomy">
+        <meta name="author" content="Emli Kristina Hem">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Falcon Heavy - Tesla Roadster</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+            integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
+            crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
+    </head>
+    <body id="roadsterPage">
+        <header>
+            <div class="topnav" id="myTopnav">
+                <a href="index.html"><img src="images/49.png" class="logo-img" alt="logo with the falcon heavy" /></a>
+                <div class="dropdown active">
+                    <button class="dropbtn">Falcon Heavy
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="fh-facts.html">Facts</a>
+                        <a href="fh-launches.html">Launches</a>
+                        <a href="roadster.html" class="active">Tesla Roadster</a>
+                    </div>
+                </div>
+                <a href="spacex.html">SpaceX</a>
+                <a href="contact.html">Contact</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+            </div>
+        </header>
+        <main>
+            <article>
+                <h1>Tesla Roadser</h1>
+                <div class="box text-center">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/aBr2kKAHN6M" frameborder="0" allow="accelerometer; autoplay;
+                        encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <p class="source-text">Source: https://www.youtube.com/embed/aBr2kKAHN6M</p>
+                </div>
+                <h2>Roadser current data</h2>
+                <div class="box">
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td>Distance from earth (km)</td>
+                                <td id="earth_distance_km"></td>
+                            </tr>
+                            <tr>
+                                <td>Distance from Mars (km)</td>
+                                <td id="mars_distance_km"></td>
+                            </tr>
+                            <tr>
+                                <td>Speed (mph)</td>
+                                <td id="speed_mph"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="box">
+                    <h2>Tesla Roadster</h2>
+                    <p>
+                        Elon Musk's Tesla Roadster is an electric sports car that served as
+                        the dummy payload for the February 2018 Falcon Heavy test flight and became an artificial satellite of the Sun.
+                        "Starman", a mannequin dressed in a spacesuit, occupies the driver's seat.
+                        The car and rocket are products of Tesla and SpaceX, respectively,
+                        both companies founded by Elon Musk.
+                        The 2008-model Roadster was previously used by Musk for commuting to work and is the only production car in space.
+                        The car, mounted on the rocket's second stage,
+                        acquired enough velocity to escape Earth's gravity
+                        and enter an elliptical heliocentric orbit crossing the orbit of Mars.
+                        The orbit reaches a maximum distance from the Sun at aphelion of 1.66 astronomical units.
+                        During the early portion of the voyage outside the Earth's atmosphere,
+                        live video was transmitted back to the mission control center and live-streamed for slightly over four hours.
+                    </p>
+                </div>
+                <div class="box">
+                    <h2>Trajectory</h2>
+                    <p>
+                        The US Office of Commercial Space Transportation issued the test flight's launch license on February 2, 2018.
+                        The rocket lifted off from Launch Complex 39A at Kennedy Space Center at 15:45 EST (20:45 UTC) on February 6.
+                        The upper stage supporting the car was initially placed in an Earth parking orbit.
+                        It spent six hours coasting through the Van Allen radiation belts,
+                        thereby demonstrating a new capability requested by
+                        the U.S. Air Force for direct insertion of heavy intelligence satellites into geostationary orbit.
+                        Then, the upper stage performed a second boost to reach the desired escape trajectory.
+                        The launch was live streamed, and video feeds from space showed the Roadster at various angles,
+                        with Earth in the background, thanks to cameras placed inside and outside the car,
+                        on booms attached to the vehicle's custom adaptor atop the upper stage.
+                        Musk had estimated the car's battery would last over 12 hours,
+                        but the live stream ran for just over four hours, thus ending before the final boost out of Earth orbit.
+                        The images were released by SpaceX into the public domain on their Flickr account.
+                    </p>
+                    <p>Following the launch, the rocket stage carrying the car was given the Satellite Catalog Number 43205, named "TESLA ROADSTER/FALCON 9H",
+                        along with the COSPAR designation 2018-017A.
+                        The JPL Horizons system publishes solutions for the trajectory as target body "-143205".
+                        The Roadster is in a heliocentric orbit that crosses the orbit of Mars and reaches a distance of 1.66 au from the Sun.
+                        With an inclination of roughly 1 degree to the ecliptic plane, compared to Mars' 1.85° inclination,
+                        this trajectory by design cannot intercept Mars, so the car will neither fly by Mars nor enter an orbit around Mars.
+                        This was the second object launched by SpaceX to leave Earth orbit,
+                        after the DSCOVR mission to the Earth–Sun L1 Lagrangian point.
+                        Nine months after launch, the Tesla had travelled beyond the orbit of Mars, reaching aphelion at 12:48 UTC on November 9, 2018,
+                        at a distance of 248,892,559 km (1.664 au) from the Sun.
+                        The maximum speed of the car relative to the Sun will be 121,005 km/h (75,189 mph) at perihelion.
+                    </p>
+                    <p>
+                        Even if the rocket had targeted an actual Mars transfer orbit,
+                        the car could not have been placed into orbit around Mars,
+                        because the upper stage that carries it is not equipped with the necessary propellant, maneuvering, and communications capabilities.
+                        This flight simply demonstrated that Falcon Heavy is capable of launching significant payloads towards Mars in potential future
+                        missions.
+                    </p>
+                </div>
+
+                <!-- Container for the image gallery -->
+                <div class="box container">
+
+                    <!-- Full-width images with number text -->
+                    <div class="mySlides">
+
+                        <img src="images/3-1.jpg" style="width:100%">
+                    </div>
+
+                    <div class="mySlides">
+
+                        <img src="images/6-1.jpg" style="width:100%">
+                    </div>
+
+                    <div class="mySlides">
+
+                        <img src="images/16-1.jpg" style="width:100%">
+                    </div>
+
+                    <div class="mySlides">
+
+                        <img src="images/18-1.jpg" style="width:100%">
+                    </div>
+
+                    <div class="mySlides">
+
+                        <img src="images/51-1.jpg" style="width:100%">
+                    </div>
+
+                    <!-- Next and previous buttons -->
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                    <!-- Image text -->
+                    <div class="caption-container">
+                        <p id="caption"></p>
+                    </div>
+
+                    <!-- Thumbnail images -->
+                    <div class="row">
+                        <div class="column">
+                            <img class="demo cursor" src="images/3-1.jpg" style="width:100%" onclick="currentSlide(1)" alt="Tesla Roadster from the front as the
+                                payload. Source: https://www.flickr.com/photos/spacex/27449863849/">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="images/6-1.jpg" style="width:100%" onclick="currentSlide(2)" alt="Tesla Roadster from the back as the
+                                payload. Source: https://www.flickr.com/photos/spacex/27449864329/">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="images/16-1.jpg" style="width:100%" onclick="currentSlide(3)" alt="Tesla Roadster from the side and
+                                the Starman in space in front of Earth. Source: https://www.flickr.com/photos/spacex/40143096241/">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="images/18-1.jpg" style="width:100%" onclick="currentSlide(4)" alt="Tesla Roadster from the front and
+                                the Starman in space in front of the moon. Source: https://www.flickr.com/photos/spacex/40110304192/">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="images/51-1.jpg" style="width:100%" onclick="currentSlide(5)" alt="Tesla Roadster in a parking lot.
+                                Source: https://en.wikipedia.org/wiki/Elon_Musk%27s_Tesla_Roadster">
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <h2>Cultural impact</h2>
+                    <p>
+                        The car in space quickly became a topic for Internet memes.
+                        Western Australia Police distributed a picture of a radar gun aimed at the Roadster whilst above Australia.
+                        Škoda produced a parody video of a Škoda Superb being driven to Mars (a village in central France).
+                        An attempt was made by Donut Media to launch a Hot Wheels-sized Tesla Model X to the stratosphere using a weather balloon.
+                        ToSky, a Siberian start-up, sent a scale model of a Soviet-era Lada
+                        carrying a mannequin of Roscosmos head Dmitry Rogozin to an altitude of 20 km to gather test data for the design of stratostats.
+                        Some news reports observed a similarity between the real pictures of a car orbiting
+                        the Earth and the title sequence of the 1981 animation film Heavy Metal,
+                        where a space traveler lands on Earth in a two-seater Chevrolet Corvette convertible.
+                        The SpaceX launch live stream reached over 2.3 million concurrent viewers on YouTube,
+                        which made it the second most watched live event on the platform,
+                        behind another space-related event: Felix Baumgartner's jump from the stratosphere in 2012.
+                    </p>
+                    <p>
+                        The choice of the Roadster as a dummy payload was variously interpreted as a shrewd marketing move for Tesla, a work of art, or a
+                        contribution to space debris.
+                    </p>
+                </div>
+                <div class="box">
+                    <h2>Orbit tracking</h2>
+                    <p>
+                        The car and the upper stage were passivated by intentionally removing remaining chemical and electrical energy,
+                        at which point they ceased transmitting telemetry.
+                        Based on optical observations made using a robotic telescope at
+                        the Warrumbungle Observatory, Dubbo, Australia and refinement of the orbit,
+                        a close re-encounter with Earth (originally predicted for 2073) is not possible.
+                        In October 2020, the car will make its closest approach to Mars,
+                        about 6.9 million kilometres (4.3 million miles) away,
+                        well outside the planet's gravitational sphere of influence.
+                        The Virtual Telescope Project observed the Tesla two days after its launch,
+                        where it had a magnitude of 15.5, comparable to Pluto's moon Charon.
+                        The Roadster was automatically spotted and logged by
+                        the Asteroid Terrestrial-impact Last Alert System (ATLAS) telescope operated by the University of Hawaii.
+                        The car was observed by the Deimos Sky Survey (DeSS)
+                        at a distance of 720,000 km (450,000 mi) with a flashing effect suggesting spinning.
+                    </p>
+                    <p>
+                        Through measuring changes in apparent brightness of the object,
+                        astronomers have determined that the Roadster is rotating with a period of 4.7589 ± 0.0060 minutes (i.e. 4 minutes, 46 seconds).
+                        By February 11, 2018, astrometry measurements from 241 independent observations had been collated,
+                        refining the positions to within one-tenth of an arcsecond and published by the SeeSat-L mailing list,
+                        a group of amateur satellite spotters—more accurate than for most observations of objects in space.
+                    </p>
+                    <h3>Future predictions</h3>
+                    <p>
+                        Simulations over a 3-million-year timespan found a probability of the Roadster colliding with Earth at approximately 6%,
+                        or with Venus at approximately 2.5%.
+                        These probabilities of collision are similar to those of other near-Earth objects.
+                        The half-life for the tested orbits was calculated as approximately 20 million years,
+                        but with trajectories varying significantly following a close approach to the Earth–Moon system in 2091.
+                        Musk had originally speculated that the car could drift in space for a billion years.
+                        According to chemist William Carroll, solar radiation, cosmic radiation,
+                        and micrometeoroid impacts will structurally damage the car over time.
+                        Radiation will eventually break down any material with carbon–carbon bonds,
+                        including carbon fiber parts.
+                        Tires, paint, plastic and leather might last only about a year,
+                        while carbon fiber parts will last considerably longer.
+                        Eventually, only the aluminum frame, inert metals, and glass not shattered by meteoroids will remain.
+                    </p>
+                    <h3>Potential followup mission</h3>
+                    <p>
+                        In August 2019, as the Roadster completed its first orbit around the Sun,
+                        Musk stated that SpaceX may one day launch a small spacecraft to catch up with the Roadster and take photographs.
+                    </p>
+                </div>
+            </article>
+        </main>
+        <footer class="footer">
+            <div>
+                <a href="https://www.flickr.com/people/spacex/" class="fab fa-flickr"></a>
+                <a href="https://www.youtube.com/user/spacexchannel/featured" class="fab fa-youtube"></a>
+                <a href="https://twitter.com/spacex" class="fab fa-twitter"></a>
+                <a href="https://www.instagram.com/spacex/" class="fab fa-instagram"></a>
+                <a href="https://www.facebook.com/SpaceExplorationTechnologiesCorp/" class="fab fa-facebook-f"></a>
+                <a href="https://www.spacex.com/" class="fas fa-globe"></a>
+                &copy; 2020 SpaceX - Falcon Heavy
+            </div>
+        </footer>
+        <script src="nav.js"></script>
+        <script src="slideshow.js"></script>
+        <script src="roadster.js"></script>
+    </body>
+</html>

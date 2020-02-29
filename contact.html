@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="microsite for spacex falcon heavy">
+        <meta name="keywords" content="space, spacex, falcon heavy, tesla, roadster, launches, aerospace, astronomy">
+        <meta name="author" content="Emli Kristina Hem">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Falcon Heavy Contactpage </title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+            integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
+            crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
+    </head>
+    <body id="contactPage">
+        <header>
+            <div class="topnav" id="myTopnav">
+                <a href="index.html"><img src="images/49.png" class="logo-img" alt="logo with the falcon heavy" /></a>
+                <div class="dropdown">
+                    <button class="dropbtn">Falcon Heavy
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="fh-facts.html">Facts</a>
+                        <a href="fh-launches.html">Launches</a>
+                        <a href="roadster.html">Tesla Roadster</a>
+                    </div>
+                </div>
+                <a href="spacex.html">SpaceX</a>
+                <a href="contact.html" class="active">Contact</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+            </div>
+        </header>
+        <main>
+            <article>
+                <div class="contact-wrapper">
+                    <h1>Contact us</h1>
+                    <h2 class="h2-contact">
+                        Please fill out the form to contact us
+                    </h2>
+                    <form method="GET" class="" onsubmit="validateForm(event)">
+                        <div id="form-error"></div>
+                        <div class="label">Firstname:</div>
+                        <input type="text" id="firstName" name="firstname">
+                        <div class="label">Lastname:</div>
+                        <input type="text" id="lastName" name="lastname">
+                        <div class="label">Phonenumber (xxxxxxxx):</div>
+                        <input type="text" id="phoneNumber" name="phonenumber">
+                        <div class="label">Email:</div>
+                        <input type="text" id="email" name="email">
+                        <div class="label">Message:</div>
+                        <textarea id="message" name="comment"></textarea id="firstName">
+                        <div class="clear"></div>
+                        <div id="form-success">
+                            Form submitted successfully
+                        </div>
+                        <div id="submit"><input type="submit" value="Send"></div>
+                    </form>
+                </div>
+            </article>
+        </main>
+        <footer class="footer">
+            <div>
+                <a href="https://www.flickr.com/people/spacex/" class="fab fa-flickr"></a>
+                <a href="https://www.youtube.com/user/spacexchannel/featured" class="fab fa-youtube"></a>
+                <a href="https://twitter.com/spacex" class="fab fa-twitter"></a>
+                <a href="https://www.instagram.com/spacex/" class="fab fa-instagram"></a>
+                <a href="https://www.facebook.com/SpaceExplorationTechnologiesCorp/" class="fab fa-facebook-f"></a>
+                <a href="https://www.spacex.com/" class="fas fa-globe"></a>
+                &copy; 2020 SpaceX - Falcon Heavy
+            </div>
+        </footer>
+        <script src="contact.js"></script>
+        <script src="nav.js"></script>
+    </body>
+</html>
